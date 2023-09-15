@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import AddIndustrySkill from "./components/IndustrySkills/AddIndustrySkill";
+import EditIndustrySkill from "./components/IndustrySkills/EditIndustrySkill";
+import Skills from "./components/Skills/Skills";
+import BusinessUnit from "./components/BusinessUnit/addBusinessUnit";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/addIndustrySkills" element={<AddIndustrySkill />} />
+          <Route
+            path="/addIndustrySkills/edit"
+            element={<EditIndustrySkill />}
+          />
+          <Route path="/addSkills" element={<Skills />} />
+          <Route path="/addBusinessUnit" element={<BusinessUnit />} />
+        </Routes>
+      </Router>
+      {/* <Footer /> */}
     </div>
   );
 }

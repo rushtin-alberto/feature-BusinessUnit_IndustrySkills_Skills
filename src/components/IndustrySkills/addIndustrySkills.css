@@ -1,0 +1,161 @@
+/* styles.css */
+
+/* Style for the full section */
+.full-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style for the search bar container */
+.search-bar-container {
+  background-color: #f0f0f0;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* Style for the input wrapper */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the input box */
+.inputBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 50%;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px; /* Example font size */
+}
+
+/* Style for the "Add IndustrySkill" button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Example font size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the skills container */
+.skills-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #ddd;
+}
+
+.Button-table {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Style for the buttons */
+.Button-table Button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10 px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Button-table Button:hover {
+  background-color: #0056b3;
+}
+
+thead th {
+  text-align: center;
+}
+
+/* EditBar.css */
+.edit-bar-container2 {
+  width: 300px; /* Adjust the width as needed */
+  background-color: #ffffff; /* Background color for the card */
+  border: 1px solid #ccc; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  padding: 20px; /* Padding inside the card */
+  text-align: center; /* Center the content horizontally */
+  margin: 250px auto; /* Center the card horizontally on the page */
+}
+
+.input-wrapper2 {
+  margin-top: 20px; /* Add some spacing between the title and the input fields */
+}
+
+h1 {
+  font-size: 24px; /* Adjust the title font size */
+  margin-bottom: 15px; /* Add some spacing below the title */
+}
+
+.inputBox2 {
+  width: 80%; /* Make the input box full width within the card */
+  padding: 10px; /* Add some padding to the input box */
+  margin-bottom: 15px; /* Add spacing between input fields */
+  border: 1px solid #ccc; /* Border around the input box */
+  border-radius: 4px; /* Rounded corners for the input box */
+}
+
+/* Style the button */
+.inputBox2 Button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 15px 20px; /* Button padding */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.inputBox2 Button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
